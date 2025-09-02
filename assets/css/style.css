@@ -106,7 +106,7 @@
   --font-weight-heading: 600;
   --font-weight-body: 500;
   --smooth-width: 4px;
-  --bg-overlay: #000;
+  --bg-overlay: #;
   --overlay-blend-mode: unset;
 }
 @media only screen and (min-width: 1400px) {
