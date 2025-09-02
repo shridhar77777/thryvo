@@ -96,6 +96,19 @@
 
 
 
+/* If you only want to target the h4 */
+.footer-links h4 {
+  color: #E2470F;
+}
+
+
+.footer-contact h4 {
+  color: #E2470F;
+}
+
+.footer-socials h4{
+  color: #E2470F;
+}
 
 
 
@@ -161,6 +174,13 @@
   margin-left: auto; /* pushes the whole block to the right */
 }
 
+
+/* Scoped: only inside the image / hero area */
+header .image-bg .sm-title-block,
+header .dsn-slider-content .sm-title-block,
+header .cover-bg .sm-title-block {
+  font-size: 50px;
+}
 
 
 
