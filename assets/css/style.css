@@ -41,7 +41,7 @@
 :root, :root .v-light, :root .v-light-head {
   --bg-color: #F3F3F3;
   --assistant-color: #E9E9E9;
-  --theme-color: #b3de4f;
+  --theme-color: #E2470F;
   --theme-color-font: #fff;
   --font-color: #5c5c5c;
   --heading-color: #000;
@@ -64,9 +64,10 @@
 :root .v-dark, :root .v-dark-head {
   --bg-color: #111;
   --assistant-color: #171717;
-  --theme-color: #b3de4f;
+  --theme-color: #E2470F;
   --font-color: #d9d9d9;
   --heading-color: #fff;
+  --heading-color2:#E2470F;
   --border-color: #373737;
   --smooth-color: #f9f9f9;
   --reverse-color: #f9f9f9;
@@ -74,13 +75,42 @@
   --bg-btn: #0a0909;
 }
 
+
+
+/* Force brand-orange titles */
+.dsn-service .section-title .title,
+.section-title .title,
+.section-title .title span,
+.service-item-inner .title-block,
+.bottom-box .title-block,
+.tob-box .title,
+.tob-box .title.text-upper,
+.dsn-text-marquee.title-lg {
+  color: var(--heading-color2) !important;
+  -webkit-text-fill-color: var(--heading-color2) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 991px) {
   .v-dark-head-mobile {
     --bg-color: #111;
     --assistant-color: #171717;
-    --theme-color: #b3de4f;
+    --theme-color: #E2470F;
     --font-color: #d9d9d9;
     --heading-color: #fff;
+    --heading-color2:#E2470F;
     --border-color: #373737;
     --smooth-color: #f9f9f9;
     --reverse-color: #f9f9f9;
@@ -106,9 +136,39 @@
   --font-weight-heading: 600;
   --font-weight-body: 500;
   --smooth-width: 4px;
-  --bg-overlay: #;
+    --bg-overlay: ;
+   
+
+
+  --overlay-blend-mode: multiply;
   --overlay-blend-mode: unset;
 }
+
+
+
+
+ 
+
+
+.post-title a h3 {
+  color: var(--heading-color2) !important;
+  -webkit-text-fill-color: var(--heading-color2) !important;
+}
+
+
+
+.dsn-btn {
+  margin-left: auto; /* pushes the whole block to the right */
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 1400px) {
   :root {
     --dsn-gap-container: 100px;
@@ -2749,9 +2809,9 @@ a:hover, a:active {
 }
 
 .header-sm .title-lg {
-  font-size: 240px;
+  font-size: 120px;
   font-weight: 600;
-  line-height: 240px;
+  line-height: 150px;
   transform: scale3d(1.1, 1, 1);
 }
 .header-sm .icons {
@@ -7412,3 +7472,11 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+
+
+
+
+
+
+
