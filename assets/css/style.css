@@ -330,6 +330,8 @@ body:not(.dsn-cursor-effect) #dsn_cursor, body:not(.dsn-cursor-effect) #dsn_curs
   height: 2px;
   bottom: -5px;
 }
+
+
 #dsn_preloader .logo-box:after {
   width: var(--wd-progress, 0);
   background-color: var(--heading-color);
@@ -341,7 +343,7 @@ body:not(.dsn-cursor-effect) #dsn_cursor, body:not(.dsn-cursor-effect) #dsn_curs
 #dsn_preloader .loading-count {
   color: var(--heading-color);
   position: absolute;
-  bottom: 50px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 18px;
@@ -352,12 +354,12 @@ body:not(.dsn-cursor-effect) #dsn_cursor, body:not(.dsn-cursor-effect) #dsn_curs
   position: absolute;
   color: var(--heading-color);
   right: var(--dsn-gap-container);
-  bottom: 50px;
+  bottom: 100px;
   letter-spacing: 2px;
 }
 
 .dsnload {
-  bottom: 50px;
+  bottom: 100px;
   left: var(--dsn-gap-container);
 }
 .dsnload .dsnload__img {
